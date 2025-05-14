@@ -17,14 +17,6 @@ class SecondLargest {
             if (ans < i && i < largest) {
                 ans = i;
             }
-            // if(largest < i) {
-            //    ans = largest;
-            //    largest = i;
-            // } else {
-            //     if(ans < i) {
-
-            //     }
-            // }
         }
         return ans;
     }
